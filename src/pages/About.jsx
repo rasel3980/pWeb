@@ -25,13 +25,13 @@ const About = () => {
             <strong>Additional Libraries:</strong> Tanstack Query, Axios
           </p>
 
-          <p>
+          <p className="text-black">
             I am passionate about creating web applications that enhance user experience and
             functionality. My career goal is to continually enhance my technical skills and
             expertise in web development.
           </p>
 
-          <p>
+          <p className="text-black">
             If you would like to learn more about my work or collaborate on a project, feel free to
             email me at <a className="text-blue-600 underline" href="mailto:rkrasel@gmail.com">rkrasel3980@gmail.com</a>.
           </p>
