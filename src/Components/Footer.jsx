@@ -9,7 +9,7 @@ const Footer = () => {
             <h1 className="font-bold text-4xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-red-600 to-pink-600 ">
               Rasel Mia
             </h1>
-            <p className="font-bold">MERN Stack Developer</p>
+            <p className="font-bold text-black">MERN Stack Developer</p>
           </div>
           <nav className="grid grid-flow-col md:gap-9 mt-3 md:mt-0 text-gray-800 font-bold">
             <a href="/project" className="link link-hover">

@@ -8,14 +8,14 @@ const About = () => {
 
       <div className="flex flex-col-reverse md:flex-row items-center gap-8">
         <div className="flex-1 text-justify space-y-4">
-          <p>
+          <p className="text-black">
             Hello, I’m <strong>Rasel Mia</strong>, an enthusiastic web developer skilled in
             building modern and scalable web applications. I have worked with various web
             technologies and am currently learning <strong>Next.js</strong> and{" "}
             <strong>Redux</strong>.
           </p>
 
-          <p>
+          <p className="text-black">
             <strong>Frontend:</strong> HTML, CSS, Tailwind CSS, JavaScript, TypeScript, React.js
             <br />
             <strong>Backend:</strong> Node.js, Express.js, MongoDB

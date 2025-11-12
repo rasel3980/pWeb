@@ -40,6 +40,7 @@ const ContactInfo = () => {
             title: "Oops...",
             text: "Something went wrong!"
           });
+          console.log("Error",error);
         }
       );
   };
@@ -80,21 +81,21 @@ const ContactInfo = () => {
             <div className=" flex flex-col justify-start mt-6 space-y-3">
               <p className="flex items-center gap-3 text-lg">
                 <FaEnvelope className="text-blue-600 text-xl" />
-                <span>
+                <span className="text-black">
                   <strong>Email:</strong> rkrasel3980@gmail.com
                 </span>
               </p>
 
               <p className="flex items-center gap-3 text-lg">
                 <FaPhoneAlt className="text-green-600 text-xl" />
-                <span>
+                <span className="text-black">
                   <strong>Phone or WhatsApp:</strong> +8801647683980
                 </span>
               </p>
 
               <p className="flex items-center gap-3 text-lg">
                 <FaMapMarkerAlt className="text-red-600 text-xl" />
-                <span>
+                <span className="text-black">
                   <strong>Location:</strong> Dhaka, Bangladesh
                 </span>
               </p>
@@ -111,18 +112,18 @@ const ContactInfo = () => {
                   type="text"
                   placeholder="Your Name"
                   name="name"
-                  className="border p-2 rounded"
+                  className="border p-2 rounded text-black"
                 />
                 <input
                   type="email"
                   placeholder="Your Email"
                   name="email"
-                  className="border p-2 rounded"
+                  className="border p-2 rounded text-black"
                 />
                 <textarea
                   placeholder="Your Message"
                   name="message"
-                  className="border p-2 rounded h-32"
+                  className="border p-2 text-black rounded h-32"
                 />
                 <button
                   type="submit"

@@ -57,11 +57,11 @@ const Home = () => {
           <div className="flex-1 text-center md:text-left">
             <div className="text-3xl md:text-4xl font-semibold animate__animated animate__fadeInTopLeft">
               <div className="flex items-center justify-center md:justify-start gap-2">
-                <span>Hello</span>
+                <span className="text-black">Hello</span>
                 <Lottie className="h-18" animationData={hi} loop={true} />
               </div>
               <div>
-                I'm{" "}
+                <span className="text-black">I'm{" "}</span>
                 <strong
                   style={{ fontFamily: "Space Grotesk, sans-serif" }}
                   className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent animate__animated animate__fadeInTopLeft"
@@ -81,13 +81,14 @@ const Home = () => {
                   1000,
                   "MERN Stack Developer",
                 ]}
+                className="text-blue-600"
                 speed={50}
                 style={{ fontSize: "1.5em", display: "inline-block" }}
                 repeat={Infinity}
               />
             </div>
 
-            <p className="mt-4 text-base leading-relaxed">
+            <p className="mt-4 text-base text-black leading-relaxed">
               I am a web developer currently studying Computer Science and
               Technology (CST) at Moulvibazar Polytechnic Institute.
             </p>
