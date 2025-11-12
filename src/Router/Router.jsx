@@ -4,6 +4,7 @@ import Skills from "../pages/Skills";
 import Project from "../pages/Project";
 import About from "../pages/About";
 import ContactInfo from "../pages/ContactInfo";
+import MainLayout from "../layout/MainLayout";
 
 export const router = createBrowserRouter([
     {
