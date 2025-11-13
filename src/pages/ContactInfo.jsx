@@ -79,22 +79,22 @@ const ContactInfo = () => {
               </a>
             </div>
             <div className=" flex flex-col justify-start mt-6 space-y-3">
-              <p className="flex items-center gap-3 text-lg">
-                <FaEnvelope className="text-blue-600 text-xl" />
+              <p className="flex items-center gap-3 md:text-lg">
+                <FaEnvelope className="text-blue-600 md:text-xl" />
                 <span className="text-black">
                   <strong>Email:</strong> rkrasel3980@gmail.com
                 </span>
               </p>
 
-              <p className="flex items-center gap-3 text-lg">
-                <FaPhoneAlt className="text-green-600 text-xl" />
+              <p className="flex items-center gap-3 md:text-lg">
+                <FaPhoneAlt className="text-green-600 md:text-xl" />
                 <span className="text-black">
                   <strong>Phone or WhatsApp:</strong> +8801647683980
                 </span>
               </p>
 
-              <p className="flex items-center gap-3 text-lg">
-                <FaMapMarkerAlt className="text-red-600 text-xl" />
+              <p className="flex items-center gap-3 md:text-lg">
+                <FaMapMarkerAlt className="text-red-600 md:text-xl" />
                 <span className="text-black">
                   <strong>Location:</strong> Dhaka, Bangladesh
                 </span>

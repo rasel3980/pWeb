@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <>
       <div className="container px-4 py-8">
-        <div className="flex flex-col md:flex-row items-center justify-center gap-y-6 md:gap-x-20 ml-12">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-y-6 md:gap-x-20 md:ml-12">
           <div className="flex flex-col items-center">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-[8px]">
               <div className="w-full h-full rounded-full bg-[#68D3BD] overflow-hidden">
