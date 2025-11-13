@@ -55,8 +55,8 @@ const Skills = () => {
 
   return (
     <section id="skills" className="mx-auto">
-      <h1 className="font-semibold text-3xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-red-600 to-pink-600 text-center my-5">My Skills</h1>
-      <div className="flex gap-8 mb-6 justify-center">
+      <h1 className="font-semibold md:text-3xl text-2xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-red-600 to-pink-600 text-center md:mb-8 mb-5">My Skills</h1>
+      <div className="flex gap-8 md:mb-6 mb-3 justify-center">
         {
           skillCategories.map((category)=>(
             <button onClick={()=>setSelectedCategory(category)} className={`font-medium text-lg ${selectedCategory.label===category.label?"btn btn-primary ":"btn hover:bg-gray-700 hover:text-white"}`}>{category.label}</button>

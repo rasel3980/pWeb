@@ -66,9 +66,9 @@ const Project = () => {
   },
   ]
   return (
-    <div>
-      <h1 className="text-center font-semibold text-3xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-red-600 to-pink-600 my-8">My Projects</h1>
-      <div className="grid md:grid-cols-3 grid-cols-1 pb-7 gap-5">
+    <div className="md:my-8 my-3">
+      <h1 className="text-center font-semibold md:text-3xl text-2xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-red-600 to-pink-600">My Projects</h1>
+      <div className="grid md:grid-cols-3 grid-cols-1 md:mt-10 mt-5 gap-5">
         {
         projects.map((p)=>(
           <ProjectCard key={p.name} img={p.img} name={p.name} description={p.description} liveLink={p.liveLink} clientCode={p.clientCode} serverCode={p.serverCode} technology={p.technology}/>

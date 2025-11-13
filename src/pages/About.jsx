@@ -3,10 +3,10 @@ import animation from "../assets/animation/Animation - 1742809656451.json";
 
 const About = () => {
   return (
-    <section id="about" className="py-10 px-4 max-w-6xl mx-auto">
-      <h3 className="text-center font-semibold text-3xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-red-600 to-pink-600 mb-6">About Me</h3>
+    <section id="about" className="md:my-12 my-8 px-4 max-w-6xl mx-auto">
+      <h3 className="text-center font-semibold text-2xl md:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-red-600 to-pink-600 ">About Me</h3>
 
-      <div className="flex flex-col-reverse md:flex-row items-center gap-8">
+      <div className="flex flex-col-reverse md:flex-row items-center md:mt-8 mt-3 gap-8">
         <div className="flex-1 text-justify space-y-4">
           <p className="text-black">
             Hello, I’m <strong>Rasel Mia</strong>, an enthusiastic web developer skilled in
