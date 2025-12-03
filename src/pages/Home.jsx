@@ -93,7 +93,7 @@ const Home = () => {
               Technology (CST) at Moulvibazar Polytechnic Institute.
             </p>
 
-            <a href="/Frontend Developer-Rasel Mia.pdf" download>
+            <a href="/Frontend Developer by Rasel Mia.pdf" download>
               <button className="btn btn-primary rounded-full mt-5">
                 Download Resume
               </button>
