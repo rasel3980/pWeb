@@ -14,7 +14,7 @@ const ProjectCard = ({
     <div>
       <div className="card h-[560px] bg-base-100 hover:md:shadow-xl hover:shadow-lg hover:shadow-red-500">
         <figure>
-          <Slider images={img}></Slider>
+          <Slider className="object-contain w-full h-full" images={img}></Slider>
         </figure>
         <div className="card-body">
           <h2 className="card-title font-bold text-2xl">{name}</h2>

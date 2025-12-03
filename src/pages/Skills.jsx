@@ -15,6 +15,7 @@ import github from "../assets/github.svg";
 import figma from "../assets/figma.png";
 import netlify from "../assets/netlify.png";
 import vercel from "../assets/Vercel.svg";
+import redux from "../assets/redux.png"
 import SkillsCard from "../Components/SkillsCard";
 
 const skillCategories = [
@@ -27,6 +28,7 @@ const skillCategories = [
       { icon: js, title: "JavaScript", level: 80 },
       { icon: react, title: "React", level: 80 },
       { icon: next, title: "Next.js", level: 75 },
+      { icon: redux, title: "Redux", level: 85 },
       { icon: typescript, title: "TypeScript", level: 75 },
     ],
   },

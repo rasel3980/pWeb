@@ -1,9 +1,10 @@
-import { FaNodeJs, FaReact } from "react-icons/fa"
-import spanishHome from "./../assets/projectImg/Spanish-Home.png"
-import spanishLesson from "./../assets/projectImg/Spanish-lesson.png"
-import spanishTutorial from "./../assets/projectImg/Spanish-tutorial.png"
-import spanishWord from "./../assets/projectImg/Spanish-word.png"
-import spanishWordMeaning from "./../assets/projectImg/Spanish-wordMeaning.png"
+import { FaBeer, FaNodeJs, FaReact } from "react-icons/fa"
+import gHome from "./../assets/projectImg/g-home.png"
+import gSearch from "./../assets/projectImg/g-search.png"
+import gProduct from "./../assets/projectImg/g-products.png"
+import gAbout from "./../assets/projectImg/g-about.png"
+import gCart from "./../assets/projectImg/g-cart.png"
+import gContact from "./../assets/projectImg/g-contact.png"
 import htHome from "./../assets/projectImg/hotel-home.png"
 import hBooking from "./../assets/projectImg/h-booking.png"
 import hLogin from "./../assets/projectImg/h-login.png"
@@ -16,19 +17,21 @@ import myVisa from "./../assets/projectImg/myVisa.png"
 import visaAdd from "./../assets/projectImg/v-addV.png"
 import allVisa from "./../assets/projectImg/v-allVisa.png"
 import ProjectCard from "./ProjectCard";
-import { SiExpress, SiFirebase, SiMongodb, SiTailwindcss } from "react-icons/si"
+import { SiExpress, SiFirebase, SiMongodb, SiNextdotjs, SiRedux, SiTailwindcss } from "react-icons/si"
 
 const Project = () => {
   const projects = [
     {
-    img:[spanishHome,spanishLesson,spanishTutorial,spanishWord,spanishWordMeaning] ,
-    name: "Learn-Spanish" ,
-    description: "The Spanish Vocabulary Project is a web application designed to help users learn and practice Spanish vocabulary. The app offers various features such as learning new words, testing your vocabulary knowledge, and tracking your learning progress",
-    liveLink:'https://vocabulary-authentication.web.app/',
-    clientCode:'https://github.com/rasel3980/vocabulary-learning',
+    img:[gHome,gSearch,gProduct,gCart,gAbout,gContact] ,
+    name: "Gadget Galaxy" ,
+    description: "Gadget Galaxy is a modern digital platform that lets users effortlessly browse, manage, and track gadgets. With a sleek interface, fast performance, and scalable architecture, it centralizes gadget information, discovery, and integrations into one seamless ecosystem.",
+    liveLink:'https://gadget-galaxy-pi.vercel.app/',
+    clientCode:'https://github.com/rasel3980/gadget-galaxy',
     technology :[
-      <SiTailwindcss className="text-sky-400 size-10" title="TailwindCSS" />,
       <FaReact className="text-sky-400 size-10" title="React"></FaReact>,
+      <SiNextdotjs className="text-black size-10" title="Nextjs" />,
+      <SiRedux className="text-[#764abc] size-10" title="Redux" />,
+      <SiTailwindcss className="text-sky-400 size-10" title="TailwindCSS" />,
       <SiFirebase className="text-yellow-500 size-10" title="Firebase" />,
     ]
   },
