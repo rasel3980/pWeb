@@ -9,7 +9,7 @@ const Navbar = () => {
     <a className={active==="about"?"text-blue-800 border-b-3 border-red-700":"hover:text-blue-700"} onClick={()=>setActive("about")} href="#about">About</a>
     </div>
   return (
-    <div className="navbar md:px-10 sticky top-0 z-50 backdrop-blur-lg bg-white/30 shadow-lg">
+    <div className="navbar md:px-10 lg:px-12 sticky top-0 z-50 backdrop-blur-lg bg-white/30 shadow-lg">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
