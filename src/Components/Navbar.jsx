@@ -3,10 +3,10 @@ import { useState } from "react";
 const Navbar = () => {
   const [active, setActive] = useState("/");
     const links = <div className="flex items-center gap-2 md:gap-5 font-bold text-md md:text-xl">
-    <a className={active==="/"?"text-blue-800 border-b-3 border-red-700":"hover:text-gray-600"} href="/">Home</a>
-    <a className={active==="skills"?"text-blue-800 border-b-3 border-red-700":"hover:text-blue-700"} onClick={()=>setActive("skills")} href="#skills">Skills</a>
-    <a className={active==="project"?"text-blue-800 border-b-3 border-red-700":"hover:text-blue-700"} onClick={()=>setActive("project")} href="#project">Project</a>
-    <a className={active==="about"?"text-blue-800 border-b-3 border-red-700":"hover:text-blue-700"} onClick={()=>setActive("about")} href="#about">About</a>
+    <a className={active==="/"?"text-blue-800 border-b-3 border-b-sky-700":"hover:text-gray-600"} href="/">Home</a>
+    <a className={active==="skills"?"text-blue-800 border-b-3  border-b-sky-700":"hover:text-blue-700"} onClick={()=>setActive("skills")} href="#skills">Skills</a>
+    <a className={active==="project"?"text-blue-800 border-b-3  border-b-sky-700":"hover:text-blue-700"} onClick={()=>setActive("project")} href="#project">Project</a>
+    <a className={active==="about"?"text-blue-800 border-b-3  border-b-sky-700":"hover:text-blue-700"} onClick={()=>setActive("about")} href="#about">About</a>
     </div>
   return (
     <div className="navbar md:px-10 lg:px-12 sticky top-0 z-50 backdrop-blur-lg bg-white/30 shadow-lg">
@@ -44,7 +44,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a href="#contact" className="md:px-4 md:py-2 px-2 py-1 hover:bg-amber-700 bg-amber-600 text-white font-semibold rounded-lg">Contact</a>
+        <a href="#contact" className="md:px-4 md:py-2 px-2 py-1 hover:bg-amber-700 bg-cyan-700 text-white font-semibold rounded-lg">Contact</a>
       </div>
     </div>
   );

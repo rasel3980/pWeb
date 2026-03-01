@@ -47,7 +47,7 @@ const ContactInfo = () => {
   return (
     <section id="contact" className="mt-6 md:mt-12">
       <div className="w-11/12 mx-auto">
-        <h2 className="font-semibold md:text-3xl text-2xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-red-600 to-pink-600 text-center md:mb-8 mb-2">
+        <h2 className="font-semibold md:text-3xl text-2xl md:font-bold text-center md:mb-8 mb-2">
           Contact Me
         </h2>
         <div className="md:flex md:items-center grid gap-5 md:gap-28">
@@ -102,7 +102,7 @@ const ContactInfo = () => {
             </div>
           </div>
           <div>
-            <div className="md:w-[500px] bg-[#91e0d0] p-3 rounded-2xl hover: md:shadow-xl hover:shadow-lg hover:shadow-red-500">
+            <div className="md:w-[500px] bg-[#91e0d0] p-3 rounded-2xl hover: md:shadow-xl hover:shadow-lg hover:shadow-blue-700">
               <form
                 ref={form}
                 onSubmit={sendEmail}

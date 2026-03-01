@@ -29,7 +29,7 @@ const skillCategories = [
       { icon: react, title: "React", level: 80 },
       { icon: next, title: "Next.js", level: 75 },
       { icon: redux, title: "Redux", level: 85 },
-      { icon: typescript, title: "TypeScript", level: 75 },
+      { icon: typescript, title: "TypeScript", level: 90 },
     ],
   },
   {
@@ -57,7 +57,7 @@ const Skills = () => {
 
   return (
     <section id="skills" className="mx-auto">
-      <h1 className="font-semibold md:text-3xl text-2xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-red-600 to-pink-600 text-center md:mb-8 mb-5">My Skills</h1>
+      <h1 className="font-semibold md:text-3xl text-2xl text-center md:font-bold md:mb-8 mb-5">My Skills</h1>
       <div className="flex gap-8 md:mb-6 mb-3 justify-center">
         {
           skillCategories.map((category)=>(

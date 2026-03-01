@@ -89,8 +89,7 @@ const Home = () => {
             </div>
 
             <p className="mt-4 text-base text-black leading-relaxed">
-              I am a web developer currently studying Computer Science and
-              Technology (CST) at Moulvibazar Polytechnic Institute.
+              I am a MERN Stack Developer focused on building scalable, responsive, and user-friendly web applications.
             </p>
 
             <a href="/Frontend Developer Rasel Mia.pdf" download>

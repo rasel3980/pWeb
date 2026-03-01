@@ -12,7 +12,7 @@ const ProjectCard = ({
 }) => {
   return (
     <div>
-      <div className="card h-[560px] bg-base-100 hover:md:shadow-xl hover:shadow-lg hover:shadow-red-500">
+      <div className="card h-[560px] bg-base-100 hover:md:shadow-xl hover:shadow-lg hover:shadow-teal-600">
         <figure>
           <Slider className="object-contain w-full h-full" images={img}></Slider>
         </figure>
