@@ -92,7 +92,7 @@ const Home = () => {
               I am a MERN Stack Developer focused on building scalable, responsive, and user-friendly web applications.
             </p>
 
-            <a href="/Frontend Developer Rasel Mia.pdf" download>
+            <a href="/rasel_resume.pdf" download>
               <button className="btn btn-primary rounded-full mt-5">
                 Download Resume
               </button>
