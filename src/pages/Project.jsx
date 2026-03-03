@@ -21,20 +21,7 @@ import { SiExpress, SiFirebase, SiMongodb, SiNextdotjs, SiRedux, SiTailwindcss }
 
 const Project = () => {
   const projects = [
-    {
-    img:[gHome,gSearch,gProduct,gCart,gAbout,gContact] ,
-    name: "Gadget Galaxy" ,
-    description: "Gadget Galaxy is a modern digital platform that lets users effortlessly browse, manage, and track gadgets. With a sleek interface, fast performance, and scalable architecture, it centralizes gadget information, discovery, and integrations into one seamless ecosystem.",
-    liveLink:'https://gadget-galaxy-pi.vercel.app/',
-    clientCode:'https://github.com/rasel3980/gadget-galaxy',
-    technology :[
-      <FaReact className="text-sky-400 size-10" title="React"></FaReact>,
-      <SiNextdotjs className="text-black size-10" title="Nextjs" />,
-      <SiRedux className="text-[#764abc] size-10" title="Redux" />,
-      <SiTailwindcss className="text-sky-400 size-10" title="TailwindCSS" />,
-      <SiFirebase className="text-yellow-500 size-10" title="Firebase" />,
-    ]
-  },
+    
     {
     img:[htHome,hRoom,hRegis, hBooking,hUpdate,hLogin] ,
     name: "Room-Rover" ,
@@ -48,6 +35,20 @@ const Project = () => {
       <FaNodeJs className="text-green-500 size-10" title="Node.js" />,
       <SiExpress className="text-gray-500 size-10" title="Express.js" />,
       <SiMongodb className="text-green-600 size-10" title="MongoDB" />,
+      <SiFirebase className="text-yellow-500 size-10" title="Firebase" />,
+    ]
+  },
+  {
+    img:[gHome,gSearch,gProduct,gCart,gAbout,gContact] ,
+    name: "Gadget Galaxy" ,
+    description: "Gadget Galaxy is a modern digital platform that lets users effortlessly browse, manage, and track gadgets. With a sleek interface, fast performance, and scalable architecture, it centralizes gadget information, discovery, and integrations into one seamless ecosystem.",
+    liveLink:'https://gadget-galaxy-pi.vercel.app/',
+    clientCode:'https://github.com/rasel3980/gadget-galaxy',
+    technology :[
+      <FaReact className="text-sky-400 size-10" title="React"></FaReact>,
+      <SiNextdotjs className="text-black size-10" title="Nextjs" />,
+      <SiRedux className="text-[#764abc] size-10" title="Redux" />,
+      <SiTailwindcss className="text-sky-400 size-10" title="TailwindCSS" />,
       <SiFirebase className="text-yellow-500 size-10" title="Firebase" />,
     ]
   },
