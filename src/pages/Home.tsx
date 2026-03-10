@@ -10,20 +10,25 @@ import Education from "./Education";
 import ContactInfo from "./ContactInfo";
 import About from "./About";
 
-interface SocialLink { icon: React.ReactNode; href: string; label: string; }
+interface SocialLink {
+  icon: React.ReactNode;
+  href: string;
+  label: string;
+  brandColor: string;
+}
 
 const SOCIAL_LINKS: SocialLink[] = [
-  { icon: <FaFacebook />, href: "https://www.facebook.com/share/1DQrSQLQC4/", label: "Facebook" },
-  { icon: <FaGithub />,   href: "https://github.com/rasel3980",               label: "GitHub"   },
-  { icon: <FaLinkedin />, href: "https://www.linkedin.com/in/rasel80",         label: "LinkedIn" },
+  { icon: <FaFacebook />, href: "https://www.facebook.com/share/1DQrSQLQC4/", label: "Facebook", brandColor: "#1877F2" },
+  { icon: <FaGithub />,   href: "https://github.com/rasel3980",               label: "GitHub",   brandColor: "#E2E8F0" },
+  { icon: <FaLinkedin />, href: "https://www.linkedin.com/in/rasel80",         label: "LinkedIn", brandColor: "#0A66C2" },
 ];
 
 const Home: React.FC = () => {
   return (
-    <div className="space-y-24 py-10">
+    <div>
       <section className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-20">
         <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }} className="flex flex-col items-center gap-5">
+          transition={{ duration: 0.5 }} className="flex flex-col items-center gap-6">
           <div className="p-[3px] rounded-full"
             style={{ background: "linear-gradient(135deg, #38BDF8, #14B8A6)" }}>
             <div className="w-60 h-60 md:w-72 md:h-72 rounded-full overflow-hidden"
@@ -32,19 +37,24 @@ const Home: React.FC = () => {
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-700" />
             </div>
           </div>
-
           <div className="flex gap-3">
-            {SOCIAL_LINKS.map(({ icon, href, label }) => (
+            {SOCIAL_LINKS.map(({ icon, href, label, brandColor }) => (
               <a key={label} href={href} target="_blank" rel="noopener noreferrer" aria-label={label}
                 className="p-3 rounded-xl text-lg transition-all duration-200 hover:-translate-y-0.5"
-                style={{ color: "#64748B", border: "1px solid rgba(56,189,248,0.15)", backgroundColor: "rgba(56,189,248,0.05)" }}
+                style={{
+                  color: "#CBD5E1", 
+                  border: "1px solid #334155",
+                  backgroundColor: "#1E293B",
+                }}
                 onMouseEnter={e => {
-                  (e.currentTarget as HTMLAnchorElement).style.color = "#38BDF8";
-                  (e.currentTarget as HTMLAnchorElement).style.borderColor = "rgba(56,189,248,0.4)";
+                  (e.currentTarget as HTMLAnchorElement).style.color = brandColor;
+                  (e.currentTarget as HTMLAnchorElement).style.borderColor = brandColor;
+                  (e.currentTarget as HTMLAnchorElement).style.backgroundColor = `${brandColor}20`;
                 }}
                 onMouseLeave={e => {
-                  (e.currentTarget as HTMLAnchorElement).style.color = "#64748B";
-                  (e.currentTarget as HTMLAnchorElement).style.borderColor = "rgba(56,189,248,0.15)";
+                  (e.currentTarget as HTMLAnchorElement).style.color = "#CBD5E1";
+                  (e.currentTarget as HTMLAnchorElement).style.borderColor = "#334155";
+                  (e.currentTarget as HTMLAnchorElement).style.backgroundColor = "#1E293B";
                 }}>
                 {icon}
               </a>
